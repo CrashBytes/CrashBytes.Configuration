@@ -8,9 +8,9 @@
 
     <!-- NuGet Package Metadata -->
     <PackageId>CrashBytes.Configuration</PackageId>
-    <Version>0.1.0</Version>
     <Authors>CrashBytes</Authors>
     <Company>CrashBytes</Company>
+    <Copyright>Copyright (c) 2026 CrashBytes</Copyright>
     <Description>Configuration validation helpers for .NET — ValidateAllOptionsOnStartup with DataAnnotations and FluentValidation.</Description>
     <PackageTags>configuration;options;validation;startup;fluent-validation</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
@@ -18,6 +18,14 @@
     <RepositoryUrl>https://github.com/CrashBytes/CrashBytes.Configuration</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
+
+    <!-- Symbol packages for source debugging -->
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MinVer" Version="5.*" PrivateAssets="All" />
+  </ItemGroup>
 
 </Project>
