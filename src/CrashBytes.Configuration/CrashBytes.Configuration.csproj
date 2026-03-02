@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>CrashBytes.Configuration</RootNamespace>
+
+    <!-- NuGet Package Metadata -->
+    <PackageId>CrashBytes.Configuration</PackageId>
+    <Version>0.1.0</Version>
+    <Authors>CrashBytes</Authors>
+    <Company>CrashBytes</Company>
+    <Description>Configuration validation helpers for .NET — ValidateAllOptionsOnStartup with DataAnnotations and FluentValidation.</Description>
+    <PackageTags>configuration;options;validation;startup;fluent-validation</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/CrashBytes/CrashBytes.Configuration</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/CrashBytes/CrashBytes.Configuration</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+</Project>
